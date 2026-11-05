@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Budgetify</string>
+
+    <string name="nav_home">Lehae</string>
+    <string name="nav_budgets">Libajete</string>
+    <string name="nav_rewards">Meputso</string>
+    <string name="nav_settings">Litlhophiso</string>
+    <string name="back">Morao</string>
+    <string name="ok">Ho lokile</string>
+    <string name="cancel">Khansela</string>
+    <string name="save">Boloka</string>
+
+    <string name="login_title">Rea u amohela hape</string>
+    <string name="login_subtitle">Kena ho laola bajete ea hao</string>
+    <string name="email">Imeile</string>
+    <string name="password">Phasewete</string>
+    <string name="confirm_password">Netefatsa phasewete</string>
+    <string name="full_name">Lebitso le felletseng</string>
+    <string name="log_in">Kena</string>
+    <string name="register">Ngolisa</string>
+    <string name="create_account">Theha akhaonto ea hao</string>
+    <string name="no_account">Ha u na akhaonto? Ngolisa</string>
+    <string name="have_account">U se na le akhaonto? Kena</string>
+    <string name="continue_with_google">Tsoela pele ka Google</string>
+    <string name="or_divider">kapa</string>
+    <string name="sso_not_configured">Ho kena ka Google ho ise ho lokisoe ka har\'a bildi ena.</string>
+    <string name="sso_failed">Ho kena ka Google ho paletsoe. Ka kopo leka hape.</string>
+    <string name="session_expired">Nako ea hao e fedile. Ka kopo kena hape.</string>
+    <string name="err_server_not_found">Aterese ea seva e bonahala e fosahetse kapa seva ha e sebetse. Hlahloba litlhophiso tsa seva leqepheng la ho kena.</string>
+    <string name="server_settings">Litlhophiso tsa seva</string>
+    <string name="server_url">Aterese ea seva</string>
+    <string name="test_connection">Boloka \'me u leke</string>
+    <string name="log_out">Tsoa</string>
+
+    <string name="err_required_all">Libaka tsohle lia hlokahala.</string>
+    <string name="err_email_invalid">Kenya aterese ea imeile e nepahetseng.</string>
+    <string name="err_password_weak">Phasewete e tlameha ho ba le litlhaku tse 8 bonyane, ho kenyelletsa tlhaku le nomoro.</string>
+    <string name="err_password_mismatch">Liphasewete ha li tsamaisane.</string>
+    <string name="err_invalid_credentials">Imeile kapa phasewete ha e nepahale.</string>
+    <string name="err_email_taken">Akhaonto e nang le imeile ena e se e ntse e le teng.</string>
+    <string name="err_network">Ha re a khona ho fihla ho seva. Hlahloba khokahano ea hao.</string>
+    <string name="err_generic">Ho bile le bothata. Ka kopo leka hape.</string>
+    <string name="err_amount_invalid">Kenya chelete e kholo ho feta zero (lidesimale tse 2 ka holimo).</string>
+    <string name="err_category_required">Khetha sehlopha.</string>
+    <string name="err_category_name">Kenya lebitso la sehlopha.</string>
+    <string name="err_limit_invalid">Kenya moeli oa khoeli o nepahetseng.</string>
+
+    <string name="hi_user">Dumela, %1$s</string>
+    <string name="spent_this_month">Tse sebelisitsoeng khoeling ena</string>
+    <string name="points">Lintlha</string>
+    <string name="streak_days">Tatellano: matsatsi a %1$d</string>
+    <string name="pending_sync">%1$d li emetse ho lumellanngoa</string>
+    <string name="all_synced">Liphetoho tsohle li lumellantsoe</string>
+    <string name="offline_banner">Ha u inthaneteng. Liphetoho li tla lumellanngoa ha u khokahana hape.</string>
+    <string name="sync_now">Lumellanya hona joale</string>
+    <string name="syncing">Ho a lumellanya…</string>
+    <string name="category_budgets">Libajete tsa lihlopha</string>
+    <string name="recent_transactions">Litšenyehelo tsa morao tjena</string>
+    <string name="no_transactions">Ha ho litšenyehelo ho fihlela joale. Tobetsa + ho eketsa.</string>
+    <string name="waiting_to_sync">E emetse ho lumellanngoa</string>
+
+    <string name="add_expense">Eketsa tšenyehelo</string>
+    <string name="amount">Palo ea chelete</string>
+    <string name="category">Sehlopha</string>
+    <string name="note_optional">Sengoloa (ha se tlamehe)</string>
+    <string name="date">Letsatsi</string>
+    <string name="attach_receipt">Hokela setšoantšo sa rasiti</string>
+    <string name="receipt_attached">Rasiti e hoketsoe</string>
+    <string name="no_categories">Hokahana le inthanete hang hore lihlopha tsa hao li kenngoe.</string>
+    <string name="saved_offline">E bolokiloe u se inthaneteng. E tla lumellanngoa ka boits\'oaro.</string>
+    <string name="saved_synced">E bolokiloe \'me e lumellantsoe.</string>
+
+    <string name="budgets_title">Libajete</string>
+    <string name="add_category">Eketsa sehlopha</string>
+    <string name="category_name">Lebitso la sehlopha</string>
+    <string name="monthly_limit">Moeli oa khoeli</string>
+    <string name="of_limit">%1$s ho %2$s</string>
+    <string name="over_budget">E fetile bajete</string>
+    <string name="edit_limit">Fetola moeli</string>
+
+    <string name="rewards_title">Meputso</string>
+    <string name="total_points">Kakaretso ea lintlha</string>
+    <string name="unlocked">E butsoe</string>
+    <string name="locked">E koetsoe</string>
+    <string name="cloud_synced">Libheji li bolokiloe sepakapakeng (Firestore)</string>
+    <string name="badge_first_expense">Mohato oa pele</string>
+    <string name="badge_first_expense_desc">Ngola tšenyehelo ea hao ea pele.</string>
+    <string name="badge_five_expenses">U qalile</string>
+    <string name="badge_five_expenses_desc">Ngola litšenyehelo tse 5.</string>
+    <string name="badge_streak_3">Matsatsi a 3 ka tatellano</string>
+    <string name="badge_streak_3_desc">Ngola litšenyehelo matsatsi a 3 ka tatellano.</string>
+    <string name="badge_streak_7">Beke e felletseng</string>
+    <string name="badge_streak_7_desc">Ngola litšenyehelo matsatsi a 7 ka tatellano.</string>
+    <string name="badge_budget_keeper">Molebeli oa bajete</string>
+    <string name="badge_budget_keeper_desc">Lula ka tlase ho meeli eohle ea lihlopha khoeling ena.</string>
+    <string name="badge_receipt_keeper">Molebeli oa liresiti</string>
+    <string name="badge_receipt_keeper_desc">Hokela setšoantšo sa rasiti ho tšenyehelo.</string>
+
+    <string name="settings_title">Litlhophiso</string>
+    <string name="currency">Mofuta oa chelete</string>
+    <string name="dark_theme">Setaele se lefifi</string>
+    <string name="notifications">Litsebiso</string>
+    <string name="language">Puo</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zu">isiZulu</string>
+    <string name="lang_st">Sesotho</string>
+    <string name="save_settings">Boloka litlhophiso</string>
+    <string name="settings_saved">Litlhophiso li bolokiloe.</string>
+    <string name="settings_saved_offline">Li bolokiloe sefoning sena. Li tla lumellanngoa ha u inthaneteng.</string>
+    <string name="send_test_push">Romela tsebiso ea teko</string>
+    <string name="test_push_sent">Tsebiso ea teko e kopiloe. E lokela ho fihla haufinyane.</string>
+    <string name="test_push_failed">Ha re a khona ho romela tsebiso ea teko.</string>
+    <string name="notif_permission_denied">Tumello ea litsebiso e hanetsoe.</string>
+    <string name="account">Akhaonto</string>
+
+    <string name="channel_name">Litemoso tsa bajete</string>
+    <string name="channel_desc">Litemoso ha u atamela kapa u feta bajete ea sehlopha.</string>
+    <string name="notif_budget_title">Temoso ea bajete</string>
+    <string name="notif_budget_warn_body">%1$s e fihlile ho %2$d%% ea bajete ea eona.</string>
+    <string name="notif_budget_over_body">%1$s e fetile bajete.</string>
+    <string name="notif_test_body">Litsebiso lia sebetsa.</string>
+
+    <string name="cat_groceries">Lijo le thepa ea lapeng</string>
+    <string name="cat_transport">Lipalangoang</string>
+    <string name="cat_eating_out">Ho ja kantle</string>
+    <string name="cat_utilities">Litšebeletso tsa lapeng</string>
+    <string name="cat_entertainment">Boithabiso</string>
+    <string name="cat_other">Tse ling</string>
+</resources>

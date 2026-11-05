@@ -1,0 +1,5 @@
+<resources>
+    <!-- AppCompat parent is required because MainActivity extends AppCompatActivity
+         (needed for AppCompatDelegate.setApplicationLocales / multi-language support). -->
+    <style name="Theme.Budgetify" parent="Theme.AppCompat.DayNight.NoActionBar" />
+</resources>

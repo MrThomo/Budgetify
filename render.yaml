@@ -1,0 +1,21 @@
+# One-click hosting of the Budgetify REST API on Render (https://render.com).
+# Render dashboard -> New -> Blueprint -> pick this GitHub repo -> Apply.
+services:
+  - type: web
+    name: budgetify-api
+    runtime: docker
+    rootDir: backend/Budgetify.Api
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: PORT
+        value: "8080"
+      - key: Jwt__Key
+        generateValue: true
+      - key: Swagger__Enabled
+        value: "true"
+      - key: Google__WebClientId
+        sync: false
+      - key: Firebase__CredentialsJson
+        sync: false

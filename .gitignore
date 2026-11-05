@@ -1,0 +1,23 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Secrets - NEVER commit these
+keystore.properties
+*.jks
+*.keystore
+firebase-adminsdk*.json
+service-account*.json
+
+# .NET
+bin/
+obj/
+*.db
+*.db-shm
+*.db-wal

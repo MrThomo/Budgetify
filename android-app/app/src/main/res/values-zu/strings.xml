@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Budgetify</string>
+
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_budgets">Amabhajethi</string>
+    <string name="nav_rewards">Imiklomelo</string>
+    <string name="nav_settings">Izilungiselelo</string>
+    <string name="back">Emuva</string>
+    <string name="ok">Kulungile</string>
+    <string name="cancel">Khansela</string>
+    <string name="save">Gcina</string>
+
+    <string name="login_title">Siyakwamukela futhi</string>
+    <string name="login_subtitle">Ngena ukuze uphathe ibhajethi yakho</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="confirm_password">Qinisekisa iphasiwedi</string>
+    <string name="full_name">Igama eliphelele</string>
+    <string name="log_in">Ngena</string>
+    <string name="register">Bhalisa</string>
+    <string name="create_account">Dala i-akhawunti yakho</string>
+    <string name="no_account">Awunayo i-akhawunti? Bhalisa</string>
+    <string name="have_account">Usunayo i-akhawunti? Ngena</string>
+    <string name="continue_with_google">Qhubeka ne-Google</string>
+    <string name="or_divider">noma</string>
+    <string name="sso_not_configured">Ukungena nge-Google akukalungiselelwa kule bhilidi.</string>
+    <string name="sso_failed">Ukungena nge-Google akuphumelelanga. Sicela uzame futhi.</string>
+    <string name="session_expired">Isikhathi sakho siphelile. Sicela ungene futhi.</string>
+    <string name="err_server_not_found">Ikheli leseva liyaphutha noma iseva ayisebenzi. Hlola Izilungiselelo zeseva ekhasini lokungena.</string>
+    <string name="server_settings">Izilungiselelo zeseva</string>
+    <string name="server_url">Ikheli leseva</string>
+    <string name="test_connection">Gcina futhi uhlole</string>
+    <string name="log_out">Phuma</string>
+
+    <string name="err_required_all">Wonke amasimu ayadingeka.</string>
+    <string name="err_email_invalid">Faka ikheli le-imeyili elivumelekile.</string>
+    <string name="err_password_weak">Iphasiwedi kumele ibe nezinhlamvu ezi-8 okungenani, kube nonhlamvu nenombolo.</string>
+    <string name="err_password_mismatch">Amaphasiwedi awafani.</string>
+    <string name="err_invalid_credentials">I-imeyili noma iphasiwedi akulungile.</string>
+    <string name="err_email_taken">Sekukhona i-akhawunti ene-imeyili le.</string>
+    <string name="err_network">Asikwazanga ukufinyelela iseva. Hlola uxhumano lwakho.</string>
+    <string name="err_generic">Kunenkinga. Sicela uzame futhi.</string>
+    <string name="err_amount_invalid">Faka inani elikhulu kuno-zero (amadesimali ayi-2 ubuningi).</string>
+    <string name="err_category_required">Khetha isigaba.</string>
+    <string name="err_category_name">Faka igama lesigaba.</string>
+    <string name="err_limit_invalid">Faka isilinganiso senyanga esivumelekile.</string>
+
+    <string name="hi_user">Sawubona, %1$s</string>
+    <string name="spent_this_month">Okusetshenzisiwe kule nyanga</string>
+    <string name="points">Amaphuzu</string>
+    <string name="streak_days">Ukulandelana: izinsuku ezi-%1$d</string>
+    <string name="pending_sync">%1$d zilindele ukuvumelanisa</string>
+    <string name="all_synced">Zonke izinguquko zivumelanisiwe</string>
+    <string name="offline_banner">Awuxhumekile. Izinguquko zizovumelaniswa uma uxhuma futhi.</string>
+    <string name="sync_now">Vumelanisa manje</string>
+    <string name="syncing">Iyavumelanisa…</string>
+    <string name="category_budgets">Amabhajethi ezigaba</string>
+    <string name="recent_transactions">Izindleko zakamuva</string>
+    <string name="no_transactions">Azikho izindleko okwamanje. Thinta + ukwengeza.</string>
+    <string name="waiting_to_sync">Kulindele ukuvumelanisa</string>
+
+    <string name="add_expense">Engeza izindleko</string>
+    <string name="amount">Inani</string>
+    <string name="category">Isigaba</string>
+    <string name="note_optional">Inothi (akuphoqelekile)</string>
+    <string name="date">Usuku</string>
+    <string name="attach_receipt">Namathisela isithombe serisidi</string>
+    <string name="receipt_attached">Irisidi inamathiselwe</string>
+    <string name="no_categories">Xhuma ku-inthanethi kanye ukuze izigaba zakho zilayishwe.</string>
+    <string name="saved_offline">Kugcinwe ungaxhumile. Kuzovumelaniswa ngokuzenzakalelayo.</string>
+    <string name="saved_synced">Kugciniwe futhi kuvumelanisiwe.</string>
+
+    <string name="budgets_title">Amabhajethi</string>
+    <string name="add_category">Engeza isigaba</string>
+    <string name="category_name">Igama lesigaba</string>
+    <string name="monthly_limit">Isilinganiso senyanga</string>
+    <string name="of_limit">%1$s kwangu-%2$s</string>
+    <string name="over_budget">Idlulile ebhajethini</string>
+    <string name="edit_limit">Hlela isilinganiso</string>
+
+    <string name="rewards_title">Imiklomelo</string>
+    <string name="total_points">Wonke amaphuzu</string>
+    <string name="unlocked">Kuvuliwe</string>
+    <string name="locked">Kuvaliwe</string>
+    <string name="cloud_synced">Amabheji agcinwe emafwini (Firestore)</string>
+    <string name="badge_first_expense">Isinyathelo sokuqala</string>
+    <string name="badge_first_expense_desc">Qopha izindleko zakho zokuqala.</string>
+    <string name="badge_five_expenses">Usuqalile</string>
+    <string name="badge_five_expenses_desc">Qopha izindleko ezi-5.</string>
+    <string name="badge_streak_3">Izinsuku ezi-3 ulandelana</string>
+    <string name="badge_streak_3_desc">Qopha izindleko izinsuku ezi-3 ulandelana.</string>
+    <string name="badge_streak_7">Isonto eliphelele</string>
+    <string name="badge_streak_7_desc">Qopha izindleko izinsuku ezi-7 ulandelana.</string>
+    <string name="badge_budget_keeper">Umgcini webhajethi</string>
+    <string name="badge_budget_keeper_desc">Hlala ngaphansi kwazo zonke izilinganiso zezigaba kule nyanga.</string>
+    <string name="badge_receipt_keeper">Umgcini wamarisidi</string>
+    <string name="badge_receipt_keeper_desc">Namathisela isithombe serisidi ezindlekweni.</string>
+
+    <string name="settings_title">Izilungiselelo</string>
+    <string name="currency">Imali</string>
+    <string name="dark_theme">Itimu emnyama</string>
+    <string name="notifications">Izaziso</string>
+    <string name="language">Ulimi</string>
+    <string name="lang_en">English</string>
+    <string name="lang_zu">isiZulu</string>
+    <string name="lang_st">Sesotho</string>
+    <string name="save_settings">Gcina izilungiselelo</string>
+    <string name="settings_saved">Izilungiselelo zigciniwe.</string>
+    <string name="settings_saved_offline">Zigcinwe kule foni. Zizovumelaniswa uma uxhumile.</string>
+    <string name="send_test_push">Thumela isaziso sokuhlola</string>
+    <string name="test_push_sent">Isaziso sokuhlola sicelwe. Kufanele sifike maduze.</string>
+    <string name="test_push_failed">Asikwazanga ukuthumela isaziso sokuhlola.</string>
+    <string name="notif_permission_denied">Imvume yezaziso ayinikeziwe.</string>
+    <string name="account">I-akhawunti</string>
+
+    <string name="channel_name">Izexwayiso zebhajethi</string>
+    <string name="channel_desc">Izixwayiso uma usondela noma udlula ebhajethini yesigaba.</string>
+    <string name="notif_budget_title">Isexwayiso sebhajethi</string>
+    <string name="notif_budget_warn_body">%1$s ifinyelele ku-%2$d%% webhajethi yayo.</string>
+    <string name="notif_budget_over_body">%1$s idlulile ebhajethini.</string>
+    <string name="notif_test_body">Izaziso ziyasebenza.</string>
+
+    <string name="cat_groceries">Ukudla nezithako</string>
+    <string name="cat_transport">Ezokuthutha</string>
+    <string name="cat_eating_out">Ukudlela ngaphandle</string>
+    <string name="cat_utilities">Izinsiza zasekhaya</string>
+    <string name="cat_entertainment">Ezokuzijabulisa</string>
+    <string name="cat_other">Okunye</string>
+</resources>
