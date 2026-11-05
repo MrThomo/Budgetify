@@ -42,6 +42,17 @@ android {
     }
 
     signingConfigs {
+        // Fixed debug key (committed on purpose) so every CI-built debug APK has the SAME SHA-1,
+        // which Google Sign-In needs. Debug key only - never used for the Play Store release.
+        getByName("debug") {
+            val debugKeystore = file("debug.keystore")
+            if (debugKeystore.exists()) {
+                storeFile = debugKeystore
+                storePassword = "android"
+                keyAlias = "androiddebugkey"
+                keyPassword = "android"
+            }
+        }
         create("release") {
             val storePath = signingValue("KEYSTORE_PATH", "storeFile")
             if (storePath != null && file(storePath).exists()) {
