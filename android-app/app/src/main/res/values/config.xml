@@ -5,5 +5,5 @@
       Firebase console -> Authentication -> Sign-in method -> Google -> Web SDK configuration
       -> "Web client ID". Leave the REPLACE text in place to hide SSO at runtime.
     -->
-    <string name="google_web_client_id" translatable="false">REPLACE_WITH_WEB_CLIENT_ID.apps.googleusercontent.com</string>
+    <string name="google_web_client_id" translatable="false">626793673664-h2cm16h54crhpsib132flhm9ifsv5058.apps.googleusercontent.com</string>
 </resources>
