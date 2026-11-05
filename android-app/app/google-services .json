@@ -12,7 +12,20 @@
           "package_name": "com.budgetify.app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "626793673664-9ho0jggfr80b6umd4ajcqpv0k842su34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.budgetify.app",
+            "certificate_hash": "932080a639ef9240e4da155a1b16709eb9844067"
+          }
+        },
+        {
+          "client_id": "626793673664-h2cm16h54crhpsib132flhm9ifsv5058.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyD_wx8nA692YWjCav5ikWbxmzwwtd6fmhI"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626793673664-h2cm16h54crhpsib132flhm9ifsv5058.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
