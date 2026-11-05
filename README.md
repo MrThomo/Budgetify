@@ -3,7 +3,7 @@
 # Budgetify — Final PoE (Part 3)
 
 **Student:** Lesedi Raseruthe (ST10442607) · **Module:** Open Source Coding (Intermediate) — OPSC6312
-**Version:** 2.0.0 (final PoE) · **Demo video:** `PASTE-YOUTUBE-LINK-HERE` *(unlisted)*
+**Version:** 2.0.0 (final PoE) · **Demo video:** `(https://github.com/MrThomo/Budgetify/blob/main/VID-20261105-WA0000.mp4 YouTube keeps removing our video)` *(unlisted)*
 
 Budgetify is a budget-tracking Android app for South African users. You log expenses against monthly category budgets, even with **no internet**, and the app syncs them when you reconnect, warns you by push notification when a budget is close to running out, rewards good habits with points and badges, and speaks **English, isiZulu and Sesotho**.
 
